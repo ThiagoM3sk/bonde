@@ -85,11 +85,6 @@ main h2{
     font-size: 1.5em;
     margin-bottom: 7px;
 }
-main img{
-    display: block;
-    margin: 20px auto;
-    max-width: 250px;
-}
 
 section{
     background-color: var(--cor3);

@@ -5,10 +5,10 @@ if(sim != 'sim'){
 }else{
     window.alert('Obrigado')
 }
-*/
+
 function sure(){
     window.alert('Tu ta querendo muito é pica e não ta sabendo pedir')
 }
-/*if (window.confirm("Você realmente quer sair?")) {
+if (window.confirm("Você realmente quer sair?")) {
     window.open("sair.html", "Obrigado pela visita!");
   }*/
