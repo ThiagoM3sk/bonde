@@ -116,7 +116,8 @@ section ul{
     columns: 2;
 }
 section ol{
-    list-style: inside
+    list-style: inside;
+    font-weight: bold;
 
 }
 section h3.caps {
@@ -131,6 +132,13 @@ section h3.caps {
 section abbr{
     text-decoration: none;
 }
+
+aside p{
+    font-weight: bold;
+    color: red;
+
+}
+
 footer{
     background-color: var(--cor2);
     text-align: center;
