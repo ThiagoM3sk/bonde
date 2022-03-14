@@ -1,7 +1,10 @@
-let time = window.document.getElementById('data')
 let data = new Date()
 let hora = data.getHours()
-time.innerHTML = `Hoje é dia ${hora}`
+let min = new Date()
+let minuto = min.getMinutes()
+let tempo = document.getElementById('data')
+
+tempo.innerHTML = `À(s) ${hora}h${minuto}`
 
 
 
