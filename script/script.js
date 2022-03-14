@@ -4,7 +4,7 @@ let min = new Date()
 let minuto = min.getMinutes()
 let tempo = document.getElementById('data')
 
-tempo.innerHTML = `À(s) ${hora}h${minuto}`
+tempo.innerHTML = `<br>À(s) ${hora}:${minuto}`
 
 
 
