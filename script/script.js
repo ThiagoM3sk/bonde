@@ -1,10 +1,77 @@
 let data = new Date()
-let hora = data.getHours()
+let ano = data.getFullYear()
 let min = new Date()
-let minuto = min.getMinutes()
+let dia = min.getDate()
+let month = new Date()
+let mes = month.getMonth()
+let diaS = new Date()
+let diaSem = diaS.getDay()
 let tempo = document.getElementById('data')
 
-tempo.innerHTML = `<br>À(s) ${hora}:${minuto}`
+switch(mes){
+    case 0:
+        mes = '01'
+        break
+    case 1:
+        mes = '02'
+        break
+    case 2:
+        mes = '03'
+        break
+    case 3:
+        mes = '04'
+        break
+    case 4:
+        mes = '05'
+        break
+    case 5:
+        mes = '06'
+        break
+    case 6:
+        mes = '07'
+        break
+    case 7:
+        mes = '08'
+        break
+    case 8:
+        mes = '09'
+        break
+    case 9:
+        mes = '10'
+        break
+    case 10:
+        mes = '11'
+        break
+    case 11:
+        mes = '12'
+        break
+}
+switch(diaSem){
+    case 0:
+        diaSem = 'Domingo'
+        break
+    case 1:
+        diaSem = 'Segunda-Feira'
+        break
+    case 2:
+        diaSem = 'Terça-Feira'
+        break
+    case 3:
+        diaSem = 'Quarta-Feira'
+        break
+    case 4:
+        diaSem = 'Quinta-Feira'
+        break
+    case 5:
+        diaSem = 'Sexta-Feira'
+        break
+    case 6:
+        diaSem = 'Sábado'
+        break
+}
+
+
+tempo.innerHTML = `Visitado em ${dia}/${mes}/${ano}, ${diaSem}`
 
 
 

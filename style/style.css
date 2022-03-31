@@ -17,7 +17,11 @@
     --font-titulo: 'Bebas Neue', cursive;
     --font-padrao: arial, helvetica, sans-serif;
 }
-
+#data{
+    
+    padding: 5px;
+    border: 2px double black;
+}
 body{
     background-color: var(--cor4);
     font-family: var(--font-padrao);
@@ -136,7 +140,7 @@ section abbr{
 aside p{
     font-weight: bold;
     color: red;
-
+    padding: 10px;
 }
 
 footer{
