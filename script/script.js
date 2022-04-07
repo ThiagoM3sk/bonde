@@ -1,3 +1,13 @@
+import Countdown from "./countdown.js"
+
+const tempoForEnd = new Countdown("30 May 2022 00:00:00 GMT-0300")
+console.log(tempoForEnd.total)
+
+
+
+
+
+/*
 let data = new Date()
 let ano = data.getFullYear()
 let min = new Date()
@@ -71,11 +81,8 @@ switch(diaSem){
 }
 
 
-tempo.innerHTML = `Visitado em ${dia}/${mes}/${ano}, ${diaSem}`
-
-
-
-
+tempo.innerHTML = `Visitado em ${diaSem}, ${dia}/${mes}/${ano}`
+*/
 /*
 let sim = window.prompt('Concordas que o Eye chupa pica?'z)
 if(sim != 'sim'){

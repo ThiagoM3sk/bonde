@@ -18,9 +18,10 @@
     --font-padrao: arial, helvetica, sans-serif;
 }
 #data{
-    
     padding: 5px;
-    border: 2px double black;
+    border-bottom: 2px double black;
+    border-right: 2px double black;
+    box-shadow: 2px 2px 2px #00000056;
 }
 body{
     background-color: var(--cor4);
