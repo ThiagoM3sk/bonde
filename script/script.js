@@ -1,11 +1,15 @@
 import Countdown from "./countdown.js"
 
 const tempoForEnd = new Countdown("30 May 2022 00:00:00 GMT-0300")
-console.log(tempoForEnd.total)
+const tempos = document.querySelectorAll("[data-time]")
 
-
-
-
+function mostrarTempo(){
+    tempos.forEach((tempo, index) =>{
+    tempo.innerHTML = tempoForEnd.total[index]
+})
+}
+mostrarTempo()
+setInterval(mostrarTempo, 1000)
 
 /*
 let data = new Date()
