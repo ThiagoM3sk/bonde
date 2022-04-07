@@ -17,12 +17,12 @@
     --font-titulo: 'Bebas Neue', cursive;
     --font-padrao: arial, helvetica, sans-serif;
 }
-#data{
+/*#data{
     padding: 5px;
     border-bottom: 2px double black;
     border-right: 2px double black;
     box-shadow: 2px 2px 2px #00000056;
-}
+}*/
 body{
     background-color: var(--cor4);
     font-family: var(--font-padrao);
