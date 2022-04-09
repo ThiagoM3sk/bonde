@@ -150,7 +150,6 @@ aside p{
 }
 
 footer{
-    font-family: var(--font-footer);
     background-color: var(--cor2);
     min-width: 300px;
     text-align: center;
@@ -165,6 +164,7 @@ footer >p{
 }
 
 footer a{
+    font-family: var(--font-footer);
     color: black;
     font-weight: bolder;
     text-decoration: none;
