@@ -82,7 +82,9 @@ main h2{
     font-size: 1.5em;
     margin-bottom: 7px;
 }
-
+main h3{
+    text-align: center;
+}
 main p {
     text-align: justify;
     line-height: 1.4em;
