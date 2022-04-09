@@ -1,6 +1,6 @@
 import Countdown from "./countdown.js"
 
-const tempoForEnd = new Countdown("30 May 2022 00:00:00 GMT-0300")
+const tempoForEnd = new Countdown("30 May 2022 12:00:00 GMT-0300")
 const tempos = document.querySelectorAll("[data-time]")
 
 function mostrarTempo(){
