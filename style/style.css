@@ -17,12 +17,7 @@
     --font-titulo: 'Bebas Neue', cursive;
     --font-padrao: arial, helvetica, sans-serif;
 }
-/*#data{
-    padding: 5px;
-    border-bottom: 2px double black;
-    border-right: 2px double black;
-    box-shadow: 2px 2px 2px #00000056;
-}*/
+
 body{
     background-color: var(--cor4);
     font-family: var(--font-padrao);
@@ -42,6 +37,7 @@ a.externo:hover{
 
 header{
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    min-width: 300px;
     font-family: var(--font-titulo);
     font-size: 3em;
     min-height: 100px;
@@ -66,8 +62,9 @@ nav > a:hover{
     border-radius: 5px;
     
 }
+
 main {
-    min-width: 350px;
+    min-width: 300px;
     max-width: 1000px;
     padding: 20px;
     margin: auto;
@@ -138,6 +135,10 @@ section abbr{
     text-decoration: none;
 }
 
+aside h3{
+    text-align: center;
+}
+
 aside p{
     font-weight: bold;
     color: red;
@@ -146,6 +147,7 @@ aside p{
 
 footer{
     background-color: var(--cor2);
+    min-width: 300px;
     text-align: center;
     padding: 10px;
     font-weight: bold;
