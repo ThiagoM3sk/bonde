@@ -46,6 +46,13 @@ header{
     padding: 30px;
     text-align: center;
 }
+
+header p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
 nav{
     background-color: var(--cor2);
     padding: 10px;
