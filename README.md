@@ -15,4 +15,4 @@ Até uma próxima
 * [Reddit](https://www.reddit.com/user/ThiagoM3sk)
 * [Linktree](https://linktr.ee/thiagom3sk)
 
-contato profissional: **thiago.mesk@outlook.com**
+em casos de dúvidas, entre em contato por: **thiago.mesk@outlook.com**
